@@ -1,0 +1,363 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.19f1 (c9714fde33b6) revision 13201743'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'ko' Physical Memory: 16315 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/SSAFY/tower
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+52504
+Successfully changed project path to: C:/Users/SSAFY/tower
+C:/Users/SSAFY/tower
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [23308] Host "[IP] 70.12.247.145 [Port] 0 [Flags] 2 [Guid] 1175613478 [EditorId] 1175613478 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DOGVPUB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [23308] Host "[IP] 70.12.247.145 [Port] 0 [Flags] 2 [Guid] 1175613478 [EditorId] 1175613478 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DOGVPUB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 140.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.19f1 (c9714fde33b6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/SSAFY/tower/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f51)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   31.0.15.1748
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.020119 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 106.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.951 seconds
+Domain Reload Profiling:
+	ReloadAssembly (952ms)
+		BeginReloadAssembly (163ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (613ms)
+			LoadAssemblies (158ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (146ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (352ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (107ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011538 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\SSAFY\tower\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\SSAFY\tower\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.157 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1158ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (865ms)
+			LoadAssemblies (120ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (408ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (250ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3106 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (114.5 KB). Loaded Objects now: 3576.
+Memory consumption went from 112.3 MB to 112.2 MB.
+Total: 4.209300 ms (FindLiveObjects: 0.269000 ms CreateObjectMapping: 0.188700 ms MarkObjects: 3.620800 ms  DeleteObjects: 0.129900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2180660.332099 seconds.
+  path: Assets/Models/Environment/Blox.FBX
+  artifactKey: Guid(0b9743389670a9c4da26585961b54d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Environment/Blox.FBX using Guid(0b9743389670a9c4da26585961b54d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c692f0baa2e424c6609e5a755e8f2116') in 0.234997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.088546 seconds.
+  path: Assets/UI/SheepImage.png
+  artifactKey: Guid(e5c4d70a3fdd2cd4c8a3e19a74707de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/SheepImage.png using Guid(e5c4d70a3fdd2cd4c8a3e19a74707de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '725096302a3587ad14b521dd9569481b') in 0.069662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/UI/UISliderFill.png
+  artifactKey: Guid(8640ef3b950dc01419a5369463f74721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/UISliderFill.png using Guid(8640ef3b950dc01419a5369463f74721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e76d9c8e95caa586b78c40e9d0ad89') in 0.031960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/UI/UIButtonPressed.png
+  artifactKey: Guid(997c5c17c1c4b8e45b6a1c47799ddeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/UIButtonPressed.png using Guid(997c5c17c1c4b8e45b6a1c47799ddeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd9f05e433cb4fe98a88d07cd84f4c5') in 0.021446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/UI/UIButtonDefault.png
+  artifactKey: Guid(691c72ed2864a3f42a2479bbe70525cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/UIButtonDefault.png using Guid(691c72ed2864a3f42a2479bbe70525cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e67884c043400e64d67f9b273f474c9') in 0.057249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.316018 seconds.
+  path: Assets/Models/Environment/Train.fbx
+  artifactKey: Guid(8bbe370394099724da8af70f408b29b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Environment/Train.fbx using Guid(8bbe370394099724da8af70f408b29b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4aa9b2655725123e65db0f9b0ae4334') in 0.059416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.059044 seconds.
+  path: Assets/Models/Characters/Dog.fbx
+  artifactKey: Guid(04eb5d04905503f4e821d22cfd8fb2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Dog.fbx using Guid(04eb5d04905503f4e821d22cfd8fb2f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b685f07c8cfc0a8d9178538d781cb1') in 0.061154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Models/Characters/ZombieDuck.fbx
+  artifactKey: Guid(ffc1cce828542694b8004c32865149a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/ZombieDuck.fbx using Guid(ffc1cce828542694b8004c32865149a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e9b259c9c0ea8a5e70f1240e581688') in 0.037260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Characters/Hellephant.fbx
+  artifactKey: Guid(b77f122f451a2394898a24191c26107c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Characters/Hellephant.fbx using Guid(b77f122f451a2394898a24191c26107c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f35e8360a452e480e2e947a97bee80c') in 0.036359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.749070 seconds.
+  path: Assets/Prefabs/Effects/SlimeSelectRing.prefab
+  artifactKey: Guid(31584b8eec720fb4c92aa055fa138ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effects/SlimeSelectRing.prefab using Guid(31584b8eec720fb4c92aa055fa138ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d90923ea16d2b2a1562e34f7c7946bb') in 0.046985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.619206 seconds.
+  path: Assets/Prefabs/Environment/Stool.prefab
+  artifactKey: Guid(15f54024878223448bc51cbfe19613c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Stool.prefab using Guid(15f54024878223448bc51cbfe19613c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d0abe731e5a2e5f31e60b2d2955d81') in 0.024136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Environment/Wall.prefab
+  artifactKey: Guid(3a70124790e83cf42adfebeaf6ae067d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Environment/Wall.prefab using Guid(3a70124790e83cf42adfebeaf6ae067d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92404cd5487c026035a416887635bf76') in 0.045679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.651425 seconds.
+  path: Assets/Prefabs/Characters/Dog.prefab
+  artifactKey: Guid(f813aca6ad702f340b886ebe71be64cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Dog.prefab using Guid(f813aca6ad702f340b886ebe71be64cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb743b82a6ca2790efb73dda12baf5eb') in 0.035816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/Characters/Zombunny.prefab
+  artifactKey: Guid(1fb0e090cfb7b8446b85723a386f35fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/Zombunny.prefab using Guid(1fb0e090cfb7b8446b85723a386f35fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3809b04ce3990555ed4699d8ded518d') in 0.041403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Characters/ZomBear.prefab
+  artifactKey: Guid(20dfe398ca6c6984498a8cf9bfcd10ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Characters/ZomBear.prefab using Guid(20dfe398ca6c6984498a8cf9bfcd10ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df63af840ec294b9e9d1fbc1baea367d') in 0.051598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.272782 seconds.
+  path: Assets/Prefabs/Attacks/FrostDebuff.prefab
+  artifactKey: Guid(14a9b8ffe62164045bc23b9b8d82afb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Attacks/FrostDebuff.prefab using Guid(14a9b8ffe62164045bc23b9b8d82afb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44b879c5297ab29eadca203608c08ab') in 0.025601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Attacks/SlimeAttack.prefab
+  artifactKey: Guid(704eeb334ac4440489bff246fb5e7d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Attacks/SlimeAttack.prefab using Guid(704eeb334ac4440489bff246fb5e7d6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8a26ce7903373d4a7d8e0e1f95b755') in 0.022036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefabs/Attacks/LightningAttack.prefab
+  artifactKey: Guid(d1c541824bb01f249adb5b6646196b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Attacks/LightningAttack.prefab using Guid(d1c541824bb01f249adb5b6646196b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb65b952b9f194f9b9d6825d58d8403') in 0.027721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/Attacks/SlimeProjectile.prefab
+  artifactKey: Guid(0be25656e85360a4db0f5a63132dae93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Attacks/SlimeProjectile.prefab using Guid(0be25656e85360a4db0f5a63132dae93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0e55134b11f9389cc847703a7d3346') in 0.045536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.374479 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/crystal(3).png
+  artifactKey: Guid(d4ec7e84c7000ab41b12d57df92bc6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/crystal(3).png using Guid(d4ec7e84c7000ab41b12d57df92bc6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e81e6dfbea045e5e9226a677c2ab372e') in 0.032974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.336386 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Spring biome/road_spring(3).png
+  artifactKey: Guid(fcfc33eca47adc94da327dc1d8a301e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Spring biome/road_spring(3).png using Guid(fcfc33eca47adc94da327dc1d8a301e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd83b911391a536d8dad2ac4dd8e115a6') in 0.052893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Spring biome/road_spring(7).png
+  artifactKey: Guid(bda8c499111718d42abcf68129fb2de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Spring biome/road_spring(7).png using Guid(bda8c499111718d42abcf68129fb2de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148cd1c51c759fc5580572b7f4afaa36') in 0.056681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Spring biome/road_spring(9).png
+  artifactKey: Guid(52c05d95c008e084a82bdbc6cafb6eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Spring biome/road_spring(9).png using Guid(52c05d95c008e084a82bdbc6cafb6eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a648d8dd21914e38c057d801141b7600') in 0.067704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.862630 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Winter biome/road_winter(3).png
+  artifactKey: Guid(6b4294d41decf6245b47a0482e7bd0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Winter biome/road_winter(3).png using Guid(6b4294d41decf6245b47a0482e7bd0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ed1c558d4ecc8fd30d625ecdd834f3') in 0.035658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Winter biome/road_winter(6).png
+  artifactKey: Guid(fa5f67f8b8d177e47a824af2cf3de863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Winter biome/road_winter(6).png using Guid(fa5f67f8b8d177e47a824af2cf3de863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd767445dd5ca2aa461d28c55ebdc83ef') in 0.024690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Winter biome/road_winter(5).png
+  artifactKey: Guid(cccd963d8075c164c93c7d5154fe2c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Winter biome/road_winter(5).png using Guid(cccd963d8075c164c93c7d5154fe2c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '049a8a22ba5c84ffee280b8685b15ef8') in 0.026707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.788676 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Desert biome/road_desert(3).png
+  artifactKey: Guid(c7e24263be0c72d4ba905e92745b3450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Desert biome/road_desert(3).png using Guid(c7e24263be0c72d4ba905e92745b3450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a839032684cd1ff649f9350c75da09') in 0.021359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Desert biome/road_desert(11).png
+  artifactKey: Guid(e4cf30ff93a512b40afc52faa4bc77e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Desert biome/road_desert(11).png using Guid(e4cf30ff93a512b40afc52faa4bc77e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda6145713901007dfb0453b2e3c0a31') in 0.016581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Desert biome/road_desert(10).png
+  artifactKey: Guid(9135521be01f01342bc6ea70bedd9826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Desert biome/road_desert(10).png using Guid(9135521be01f01342bc6ea70bedd9826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53291a3cfe1b6f53064312912e0227f') in 0.016043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Desert biome/road_desert(6).png
+  artifactKey: Guid(3fdcb8f6fbe9c7a45ad2538e6702a575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Desert biome/road_desert(6).png using Guid(3fdcb8f6fbe9c7a45ad2538e6702a575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5b5780f574f2d3305877fb8ce5d960') in 0.014970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.185312 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Landscape tiles/buildingPlaceSnow.png
+  artifactKey: Guid(49bc38e1dd16d094ab20e22f2731fe6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Landscape tiles/buildingPlaceSnow.png using Guid(49bc38e1dd16d094ab20e22f2731fe6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad8be1a565bdb26101421e60a97af6b') in 0.019500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Landscape tiles/sand.png
+  artifactKey: Guid(3187c92d297e6f2499cf6a6e3eed623c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Landscape tiles/sand.png using Guid(3187c92d297e6f2499cf6a6e3eed623c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72dfc8fbe268e24713c3d68ae19e944') in 0.025890 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

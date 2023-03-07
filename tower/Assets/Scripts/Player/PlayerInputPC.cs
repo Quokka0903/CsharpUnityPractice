@@ -8,7 +8,7 @@ public class PlayerInputPC : MonoBehaviour
 {
 	[SerializeField] PlayerMovement playerMovement = null;	//Reference to the player's movement script
 	[SerializeField] PlayerAttack playerAttack = null;		//Reference to the player's attack script
-	[SerializeField] PauseMenu pauseMenu;					//Reference to the pause menu
+	// [SerializeField] PauseMenu pauseMenu;					//Reference to the pause menu
 
 	//Reset() defines the default values for properties in the inspector
 	void Reset ()
@@ -17,7 +17,7 @@ public class PlayerInputPC : MonoBehaviour
 		playerMovement = GetComponent<PlayerMovement> ();
 		playerAttack = GetComponent<PlayerAttack> ();
 		//Find an instance of the PauseMenu script in the scene
-		pauseMenu = FindObjectOfType<PauseMenu>();
+		// pauseMenu = FindObjectOfType<PauseMenu>();
 	}
 
 	//If this is a mobile platform, lines 25 through 28 will be enabled and this script will remove itself from the player
@@ -31,28 +31,28 @@ public class PlayerInputPC : MonoBehaviour
 	void Update ()
 	{
 		//If there is a pause menu and the player presses the Cancel input axis, pause the game
-		if (pauseMenu != null && Input.GetButtonDown("Cancel"))
-			pauseMenu.Pause();
+		// if (pauseMenu != null && Input.GetButtonDown("Cancel"))
+		// 	pauseMenu.Pause();
 		//If the player cannot update, leave
-		if (!CanUpdate())
-			return;
+		// if (!CanUpdate())
+		// 	return;
 		//Handle inputs for movement, attacking, and allies
 		HandleMoveInput();
 		HandleAttackInput();
 		HandleAllyInput();
 	}
 
-	bool CanUpdate()
-	{
-		//If the game is paused, the player cannot update
-		if (pauseMenu != null && pauseMenu.IsPaused)
-			return false;
-		//If this player isn't the player assigned to the GameManager, then this player cannot update
-		if (GameManager.Instance.Player == null || GameManager.Instance.Player.transform != transform)
-			return false;
-		//If the above two statements aren't true, then the player can update
-		return true;
-	}
+	// bool CanUpdate()
+	// {
+	// 	//If the game is paused, the player cannot update
+	// 	// if (pauseMenu != null && pauseMenu.IsPaused)
+	// 	// 	return false;
+	// 	//If this player isn't the player assigned to the GameManager, then this player cannot update
+	// 	if (GameManager.Instance.Player == null || GameManager.Instance.Player.transform != transform)
+	// 		return false;
+	// 	//If the above two statements aren't true, then the player can update
+	// 	return true;
+	// }
 
 	void HandleMoveInput()
 	{

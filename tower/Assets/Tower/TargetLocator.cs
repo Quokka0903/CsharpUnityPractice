@@ -9,13 +9,6 @@ public class TargetLocator : MonoBehaviour
     [SerializeField] float range = 25f;
     Transform target;
 
-    // Start is called before the first frame update
-    // void Start()
-    // {
-    //     target = FindObjectOfType<Enemies>().transform;
-    // }
-
-    // Update is called once per frame
     void Update()
     {
         FindClosestTarget();

@@ -37,7 +37,6 @@ public class PathFinder : MonoBehaviour
         }
     }
 
-    // Start is called before the first frame update
     void Start()
     {
         GetNewPath();
@@ -66,7 +65,6 @@ public class PathFinder : MonoBehaviour
             if (grid.ContainsKey(neighborCoords))
             {
                 neighbors.Add(grid[neighborCoords]);
-
             }
         }
 
@@ -78,13 +76,11 @@ public class PathFinder : MonoBehaviour
                 reached.Add(neighbor.coordinates, neighbor);
                 frontier.Enqueue(neighbor);
             }
-
         }
     }
 
     void BFS(Vector2Int coordinates)
     {
-        
         startNode.isWalkable = true;
         destinationNode.isWalkable = true;
 
@@ -92,10 +88,8 @@ public class PathFinder : MonoBehaviour
         reached.Clear();
 
         bool isRunning = true;
-
         frontier.Enqueue(grid[coordinates]);
         reached.Add(coordinates, grid[coordinates]);
-
         while (frontier.Count > 0 && isRunning)
         {
             currentSearchNode = frontier.Dequeue();

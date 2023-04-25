@@ -4,10 +4,8 @@ using UnityEngine;
 
 public class TDTower : MonoBehaviour
 {
-    
     [SerializeField] int cost = 30;
     [SerializeField] float buildDelay = 1f;
-    // [SerializeField] int inflation = 20;
 
     void Start()
     {
@@ -17,21 +15,13 @@ public class TDTower : MonoBehaviour
     public bool CreateTower(TDTower tower, Vector3 position)
     {
         Bank bank = FindObjectOfType<Bank>();
-
-        if (bank == null)
-        {
-            return false;
-        }
-
+        if (bank == null) { return false; }
         if (bank.CurrentBalance >= cost)
         {
             Instantiate(tower.gameObject, position, Quaternion.identity);
             bank.Withdraw(cost);
-            // cost += inflation;
-            
             return true;
         }
-
         return false;
     }
 

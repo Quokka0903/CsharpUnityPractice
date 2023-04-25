@@ -44,16 +44,6 @@ public class EnemyMover : MonoBehaviour
         path.Clear();
         path = pathFinder.GetNewPath(coordinates);
         StartCoroutine (FollowPath());
-        // GameObject parent = GameObject.FindGameObjectWithTag("Path");
-
-        // foreach (Transform child in parent.transform)
-        // {
-        //     Tile tile = child.GetComponent<Tile>();
-        //     if (tile != null)
-        //     {
-        //         path.Add(tile);
-        //     }
-        // }
     }
 
     void ReturnToStart()
